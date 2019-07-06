@@ -24,7 +24,7 @@ use yii\web\Response;
 
 class AppController extends ActiveController
 {   
-    protected $appe = "";
+    protected $appee = "";
     protected $params = '';
     public $mobile = '';
     public $channel_id = '';
