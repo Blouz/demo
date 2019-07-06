@@ -23,7 +23,8 @@ use common\helpers\Common;
 use yii\web\Response;
 
 class AppController extends ActiveController
-{
+{   
+    protected $app = "";
     protected $params = '';
     public $mobile = '';
     public $channel_id = '';
