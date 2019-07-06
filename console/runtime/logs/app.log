@@ -1,0 +1,282 @@
+2015-08-12 14:42:53 [-][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2015-08-12 14:42:53 [-][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2015-08-12 14:42:53 [-][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2015-08-12 14:42:53 [-][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2015-08-12 14:42:53 [-][-][-][error][yii\console\Exception] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "".' in /data/wwwroot/social/vendor/yiisoft/yii2/base/Module.php:461
+Stack trace:
+#0 /data/wwwroot/social/vendor/yiisoft/yii2/console/Application.php(161): yii\base\Module->runAction('', Array)
+#1 /data/wwwroot/social/vendor/yiisoft/yii2/console/Application.php(137): yii\console\Application->runAction('', Array)
+#2 /data/wwwroot/social/vendor/yiisoft/yii2/base/Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 /data/wwwroot/social/yii(30): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\console\Exception' with message 'Unknown command "".' in /data/wwwroot/social/vendor/yiisoft/yii2/console/Application.php:163
+Stack trace:
+#0 /data/wwwroot/social/vendor/yiisoft/yii2/console/Application.php(137): yii\console\Application->runAction('', Array)
+#1 /data/wwwroot/social/vendor/yiisoft/yii2/base/Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 /data/wwwroot/social/yii(30): yii\base\Application->run()
+#3 {main}
+2015-08-12 14:42:53 [-][-][-][info][application] $_SERVER = [
+    'HOSTNAME' => 'vagrant-centos65.vagrantup.com'
+    'TERM' => 'vt100'
+    'SHELL' => '/bin/bash'
+    'HISTSIZE' => '1000'
+    'SSH_CLIENT' => '10.0.2.2 61643 22'
+    'OLDPWD' => '/data/wwwroot'
+    'SSH_TTY' => '/dev/pts/0'
+    'USER' => 'root'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=01;05;37;41:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.tbz=01;31:*.tbz2=01;31:*.bz=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=01;36:*.au=01;36:*.flac=01;36:*.mid=01;36:*.midi=01;36:*.mka=01;36:*.mp3=01;36:*.mpc=01;36:*.ogg=01;36:*.ra=01;36:*.wav=01;36:*.axa=01;36:*.oga=01;36:*.spx=01;36:*.xspf=01;36:'
+    'MAIL' => '/var/spool/mail/root'
+    'PATH' => '/usr/local/php/bin:/usr/local/mysql/bin:/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/root/bin'
+    'PWD' => '/data/wwwroot/social'
+    'LANG' => 'zh_CN.UTF-8'
+    'HISTCONTROL' => 'ignoredups'
+    'SHLVL' => '1'
+    'HOME' => '/root'
+    'LOGNAME' => 'root'
+    'CVS_RSH' => 'ssh'
+    'SSH_CONNECTION' => '10.0.2.2 61643 10.0.2.15 22'
+    'LESSOPEN' => '|/usr/bin/lesspipe.sh %s'
+    'G_BROKEN_FILENAMES' => '1'
+    '_' => './yii'
+    'PHP_SELF' => './yii'
+    'SCRIPT_NAME' => './yii'
+    'SCRIPT_FILENAME' => './yii'
+    'PATH_TRANSLATED' => './yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1439361773.6877
+    'REQUEST_TIME' => 1439361773
+    'argv' => [
+        0 => './yii'
+    ]
+    'argc' => 1
+]
+2015-08-12 14:42:53 [-][-][-][error][yii\console\Exception] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "".' in /data/wwwroot/social/vendor/yiisoft/yii2/base/Module.php:461
+Stack trace:
+#0 /data/wwwroot/social/vendor/yiisoft/yii2/console/Application.php(161): yii\base\Module->runAction('', Array)
+#1 /data/wwwroot/social/vendor/yiisoft/yii2/console/Application.php(137): yii\console\Application->runAction('', Array)
+#2 /data/wwwroot/social/vendor/yiisoft/yii2/base/Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 /data/wwwroot/social/yii(30): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\console\Exception' with message 'Unknown command "".' in /data/wwwroot/social/vendor/yiisoft/yii2/console/Application.php:163
+Stack trace:
+#0 /data/wwwroot/social/vendor/yiisoft/yii2/console/Application.php(137): yii\console\Application->runAction('', Array)
+#1 /data/wwwroot/social/vendor/yiisoft/yii2/base/Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 /data/wwwroot/social/yii(30): yii\base\Application->run()
+#3 {main}
+2015-08-12 14:42:53 [-][-][-][info][application] $_SERVER = [
+    'HOSTNAME' => 'vagrant-centos65.vagrantup.com'
+    'TERM' => 'vt100'
+    'SHELL' => '/bin/bash'
+    'HISTSIZE' => '1000'
+    'SSH_CLIENT' => '10.0.2.2 61643 22'
+    'OLDPWD' => '/data/wwwroot'
+    'SSH_TTY' => '/dev/pts/0'
+    'USER' => 'root'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=01;05;37;41:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.tbz=01;31:*.tbz2=01;31:*.bz=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=01;36:*.au=01;36:*.flac=01;36:*.mid=01;36:*.midi=01;36:*.mka=01;36:*.mp3=01;36:*.mpc=01;36:*.ogg=01;36:*.ra=01;36:*.wav=01;36:*.axa=01;36:*.oga=01;36:*.spx=01;36:*.xspf=01;36:'
+    'MAIL' => '/var/spool/mail/root'
+    'PATH' => '/usr/local/php/bin:/usr/local/mysql/bin:/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/root/bin'
+    'PWD' => '/data/wwwroot/social'
+    'LANG' => 'zh_CN.UTF-8'
+    'HISTCONTROL' => 'ignoredups'
+    'SHLVL' => '1'
+    'HOME' => '/root'
+    'LOGNAME' => 'root'
+    'CVS_RSH' => 'ssh'
+    'SSH_CONNECTION' => '10.0.2.2 61643 10.0.2.15 22'
+    'LESSOPEN' => '|/usr/bin/lesspipe.sh %s'
+    'G_BROKEN_FILENAMES' => '1'
+    '_' => './yii'
+    'PHP_SELF' => './yii'
+    'SCRIPT_NAME' => './yii'
+    'SCRIPT_FILENAME' => './yii'
+    'PATH_TRANSLATED' => './yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1439361773.6877
+    'REQUEST_TIME' => 1439361773
+    'argv' => [
+        0 => './yii'
+    ]
+    'argc' => 1
+]
+2015-08-12 14:43:06 [-][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2015-08-12 14:43:06 [-][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2015-08-12 14:43:06 [-][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2015-08-12 14:43:06 [-][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2015-08-12 14:43:06 [-][-][-][error][yii\console\Exception] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "".' in /data/wwwroot/social/vendor/yiisoft/yii2/base/Module.php:461
+Stack trace:
+#0 /data/wwwroot/social/vendor/yiisoft/yii2/console/Application.php(161): yii\base\Module->runAction('', Array)
+#1 /data/wwwroot/social/vendor/yiisoft/yii2/console/Application.php(137): yii\console\Application->runAction('', Array)
+#2 /data/wwwroot/social/vendor/yiisoft/yii2/base/Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 /data/wwwroot/social/yii(30): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\console\Exception' with message 'Unknown command "".' in /data/wwwroot/social/vendor/yiisoft/yii2/console/Application.php:163
+Stack trace:
+#0 /data/wwwroot/social/vendor/yiisoft/yii2/console/Application.php(137): yii\console\Application->runAction('', Array)
+#1 /data/wwwroot/social/vendor/yiisoft/yii2/base/Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 /data/wwwroot/social/yii(30): yii\base\Application->run()
+#3 {main}
+2015-08-12 14:43:06 [-][-][-][info][application] $_SERVER = [
+    'HOSTNAME' => 'vagrant-centos65.vagrantup.com'
+    'TERM' => 'vt100'
+    'SHELL' => '/bin/bash'
+    'HISTSIZE' => '1000'
+    'SSH_CLIENT' => '10.0.2.2 61643 22'
+    'OLDPWD' => '/data/wwwroot'
+    'SSH_TTY' => '/dev/pts/0'
+    'USER' => 'root'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=01;05;37;41:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.tbz=01;31:*.tbz2=01;31:*.bz=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=01;36:*.au=01;36:*.flac=01;36:*.mid=01;36:*.midi=01;36:*.mka=01;36:*.mp3=01;36:*.mpc=01;36:*.ogg=01;36:*.ra=01;36:*.wav=01;36:*.axa=01;36:*.oga=01;36:*.spx=01;36:*.xspf=01;36:'
+    'MAIL' => '/var/spool/mail/root'
+    'PATH' => '/usr/local/php/bin:/usr/local/mysql/bin:/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/root/bin'
+    'PWD' => '/data/wwwroot/social'
+    'LANG' => 'zh_CN.UTF-8'
+    'HISTCONTROL' => 'ignoredups'
+    'SHLVL' => '1'
+    'HOME' => '/root'
+    'LOGNAME' => 'root'
+    'CVS_RSH' => 'ssh'
+    'SSH_CONNECTION' => '10.0.2.2 61643 10.0.2.15 22'
+    'LESSOPEN' => '|/usr/bin/lesspipe.sh %s'
+    'G_BROKEN_FILENAMES' => '1'
+    '_' => './yii'
+    'PHP_SELF' => './yii'
+    'SCRIPT_NAME' => './yii'
+    'SCRIPT_FILENAME' => './yii'
+    'PATH_TRANSLATED' => './yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1439361786.0134
+    'REQUEST_TIME' => 1439361786
+    'argv' => [
+        0 => './yii'
+    ]
+    'argc' => 1
+]
+2015-08-12 14:43:06 [-][-][-][error][yii\console\Exception] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "".' in /data/wwwroot/social/vendor/yiisoft/yii2/base/Module.php:461
+Stack trace:
+#0 /data/wwwroot/social/vendor/yiisoft/yii2/console/Application.php(161): yii\base\Module->runAction('', Array)
+#1 /data/wwwroot/social/vendor/yiisoft/yii2/console/Application.php(137): yii\console\Application->runAction('', Array)
+#2 /data/wwwroot/social/vendor/yiisoft/yii2/base/Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 /data/wwwroot/social/yii(30): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\console\Exception' with message 'Unknown command "".' in /data/wwwroot/social/vendor/yiisoft/yii2/console/Application.php:163
+Stack trace:
+#0 /data/wwwroot/social/vendor/yiisoft/yii2/console/Application.php(137): yii\console\Application->runAction('', Array)
+#1 /data/wwwroot/social/vendor/yiisoft/yii2/base/Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 /data/wwwroot/social/yii(30): yii\base\Application->run()
+#3 {main}
+2015-08-12 14:43:06 [-][-][-][info][application] $_SERVER = [
+    'HOSTNAME' => 'vagrant-centos65.vagrantup.com'
+    'TERM' => 'vt100'
+    'SHELL' => '/bin/bash'
+    'HISTSIZE' => '1000'
+    'SSH_CLIENT' => '10.0.2.2 61643 22'
+    'OLDPWD' => '/data/wwwroot'
+    'SSH_TTY' => '/dev/pts/0'
+    'USER' => 'root'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=01;05;37;41:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.tbz=01;31:*.tbz2=01;31:*.bz=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=01;36:*.au=01;36:*.flac=01;36:*.mid=01;36:*.midi=01;36:*.mka=01;36:*.mp3=01;36:*.mpc=01;36:*.ogg=01;36:*.ra=01;36:*.wav=01;36:*.axa=01;36:*.oga=01;36:*.spx=01;36:*.xspf=01;36:'
+    'MAIL' => '/var/spool/mail/root'
+    'PATH' => '/usr/local/php/bin:/usr/local/mysql/bin:/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/root/bin'
+    'PWD' => '/data/wwwroot/social'
+    'LANG' => 'zh_CN.UTF-8'
+    'HISTCONTROL' => 'ignoredups'
+    'SHLVL' => '1'
+    'HOME' => '/root'
+    'LOGNAME' => 'root'
+    'CVS_RSH' => 'ssh'
+    'SSH_CONNECTION' => '10.0.2.2 61643 10.0.2.15 22'
+    'LESSOPEN' => '|/usr/bin/lesspipe.sh %s'
+    'G_BROKEN_FILENAMES' => '1'
+    '_' => './yii'
+    'PHP_SELF' => './yii'
+    'SCRIPT_NAME' => './yii'
+    'SCRIPT_FILENAME' => './yii'
+    'PATH_TRANSLATED' => './yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1439361786.0134
+    'REQUEST_TIME' => 1439361786
+    'argv' => [
+        0 => './yii'
+    ]
+    'argc' => 1
+]
+2015-08-12 14:54:02 [-][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'shop.shop' doesn't exist' in /data/wwwroot/social/vendor/yiisoft/yii2/db/Command.php:822
+Stack trace:
+#0 /data/wwwroot/social/vendor/yiisoft/yii2/db/Command.php(822): PDOStatement->execute()
+#1 /data/wwwroot/social/vendor/yiisoft/yii2/db/Command.php(350): yii\db\Command->queryInternal('fetchAll', NULL)
+#2 /data/wwwroot/social/vendor/yiisoft/yii2/db/Query.php(206): yii\db\Command->queryAll()
+#3 /data/wwwroot/social/vendor/yiisoft/yii2/db/ActiveQuery.php(130): yii\db\Query->all(NULL)
+#4 /data/wwwroot/social/console/controllers/DataController.php(36): yii\db\ActiveQuery->all()
+#5 [internal function]: console\controllers\DataController->actionImportShop()
+#6 /data/wwwroot/social/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#7 /data/wwwroot/social/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#8 /data/wwwroot/social/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('import-shop', Array)
+#9 /data/wwwroot/social/vendor/yiisoft/yii2/console/Application.php(161): yii\base\Module->runAction('data/import-sho...', Array)
+#10 /data/wwwroot/social/vendor/yiisoft/yii2/console/Application.php(137): yii\console\Application->runAction('data/import-sho...', Array)
+#11 /data/wwwroot/social/vendor/yiisoft/yii2/base/Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#12 /data/wwwroot/social/yii(30): yii\base\Application->run()
+#13 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'shop.shop' doesn't exist
+The SQL being executed was: SELECT `id` AS `shop_id`, `username`, `shop_name`, `position_x`, `position_y`, `status`, `city` FROM `shop` LIMIT 1000' in /data/wwwroot/social/vendor/yiisoft/yii2/db/Schema.php:534
+Stack trace:
+#0 /data/wwwroot/social/vendor/yiisoft/yii2/db/Command.php(837): yii\db\Schema->convertException(Object(PDOException), 'SELECT `id` AS ...')
+#1 /data/wwwroot/social/vendor/yiisoft/yii2/db/Command.php(350): yii\db\Command->queryInternal('fetchAll', NULL)
+#2 /data/wwwroot/social/vendor/yiisoft/yii2/db/Query.php(206): yii\db\Command->queryAll()
+#3 /data/wwwroot/social/vendor/yiisoft/yii2/db/ActiveQuery.php(130): yii\db\Query->all(NULL)
+#4 /data/wwwroot/social/console/controllers/DataController.php(36): yii\db\ActiveQuery->all()
+#5 [internal function]: console\controllers\DataController->actionImportShop()
+#6 /data/wwwroot/social/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#7 /data/wwwroot/social/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#8 /data/wwwroot/social/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('import-shop', Array)
+#9 /data/wwwroot/social/vendor/yiisoft/yii2/console/Application.php(161): yii\base\Module->runAction('data/import-sho...', Array)
+#10 /data/wwwroot/social/vendor/yiisoft/yii2/console/Application.php(137): yii\console\Application->runAction('data/import-sho...', Array)
+#11 /data/wwwroot/social/vendor/yiisoft/yii2/base/Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#12 /data/wwwroot/social/yii(30): yii\base\Application->run()
+#13 {main}
+Additional Information:
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'shop.shop' doesn't exist
+)
+
+2015-08-12 14:54:02 [-][-][-][info][application] $_SERVER = [
+    'HOSTNAME' => 'vagrant-centos65.vagrantup.com'
+    'TERM' => 'vt100'
+    'SHELL' => '/bin/bash'
+    'HISTSIZE' => '1000'
+    'SSH_CLIENT' => '10.0.2.2 61643 22'
+    'OLDPWD' => '/data/wwwroot'
+    'SSH_TTY' => '/dev/pts/0'
+    'USER' => 'root'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=01;05;37;41:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.tbz=01;31:*.tbz2=01;31:*.bz=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=01;36:*.au=01;36:*.flac=01;36:*.mid=01;36:*.midi=01;36:*.mka=01;36:*.mp3=01;36:*.mpc=01;36:*.ogg=01;36:*.ra=01;36:*.wav=01;36:*.axa=01;36:*.oga=01;36:*.spx=01;36:*.xspf=01;36:'
+    'MAIL' => '/var/spool/mail/root'
+    'PATH' => '/usr/local/php/bin:/usr/local/mysql/bin:/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/root/bin'
+    'PWD' => '/data/wwwroot/social'
+    'LANG' => 'zh_CN.UTF-8'
+    'HISTCONTROL' => 'ignoredups'
+    'SHLVL' => '1'
+    'HOME' => '/root'
+    'LOGNAME' => 'root'
+    'CVS_RSH' => 'ssh'
+    'SSH_CONNECTION' => '10.0.2.2 61643 10.0.2.15 22'
+    'LESSOPEN' => '|/usr/bin/lesspipe.sh %s'
+    'G_BROKEN_FILENAMES' => '1'
+    '_' => './yii'
+    'PHP_SELF' => './yii'
+    'SCRIPT_NAME' => './yii'
+    'SCRIPT_FILENAME' => './yii'
+    'PATH_TRANSLATED' => './yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1439362442.2102
+    'REQUEST_TIME' => 1439362442
+    'argv' => [
+        0 => './yii'
+        1 => 'data/import-shop'
+    ]
+    'argc' => 2
+]
